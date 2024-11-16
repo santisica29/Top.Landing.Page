@@ -40,7 +40,7 @@ header ul {
     width: 600px;
 }
 
-.hero button {
+button {
     padding: .6rem 2rem;
     color: white;
     background-color: #3882F6;
@@ -111,4 +111,39 @@ a{
     margin-right: 480px;
     font-weight:bold;
     font-size: 1.2rem;
+}
+
+.call-to-action{
+    padding: 4rem 2rem;
+    color: white;
+}
+
+.call-to-action .flex{
+    width: 50%;
+    padding:3rem;
+    background-color: #3882F6;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action h3{
+    margin: .2rem;
+    font-size: 24px;
+}
+
+.call-to-action p {
+    margin: .2rem;
+}
+
+.call-to-action button{
+    border: 2px solid white;
+    transition: all 1s ease-in;
+}
+
+.call-to-action button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #3882F6;
 }
