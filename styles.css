@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header, .hero, footer{
+    background-color: #1F2937;
+}
+
+header {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.header-logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+header ul {
+    display: flex;
+    gap: 2rem;
+}
+.hero {
+    padding: 4rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: #F9FAF8;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 600px;
+}
+
+.hero button {
+    padding: .6rem 2rem;
+    color: white;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 7px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.information {
+    padding: 2.5rem 2rem 5rem;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(57, 56, 56);
+}
+
+.information h2{
+    color: #1F2937;
+    margin-bottom: 5rem;
+    font-size: 36px;
+    font-weight: 900;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.flex-container div {
+    width: 230px;
+}
+.flex-container img{
+    border: 2px solid #3882F6;
+    width: 100%;
+    border-radius: 10px;
+}
